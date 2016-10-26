@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	      <link href="static/signin.css" rel="stylesheet">
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ </head>
+
+	<body>
+		<div class="container">
+		      <form class="form-signin" action="/submit" method="post" name="myForm">
+			<h2 class="form-signin-heading">
+
+				<span class="glyphicon glyphicon-music" aria-hidden="true"></span>	우아아아아!!! 새회원</h2>
+			<input type="text" id="member_name" name="member_name" class="form-control" placeholder="이름이름" required autofocus>
+			<input type="text" id="member_age" name="member_age" class="form-control" placeholder="나이나이" required autofocus>
+			<input type="text" id="member_addr" name="member_addr" class="form-control" placeholder="주소주소" required autofocus>
+		      </form>
+
+<button type="button" class="btn btn-default btn-lg" onclick="addNewMember()">
+                  <span class="glyphicon glyphicon-music" aria-hidden="true"></span> 시작
+                </button>
+		    </div>
+		<script src=src/member.js></script>
+	</body>
+</html>

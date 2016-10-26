@@ -1,0 +1,18 @@
+{
+  "name": "sabrina",
+  "description": "A member managing system for sabrina yoga",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/hjimin/sabrina_yoga_app",
+  "keywords": [
+    "Electron",
+    "yoga",
+    "sabrina yoga"
+  ],
+  "author": "Jimin Heo",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongorito": "^2.1.2"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="static/signin.css" rel="stylesheet">
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+  <body>
+    <div class="container">
+      <form class="form-signin" action="/submit" method="post" name="myForm">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="text" id="login_number" name="login_number" class="form-control" placeholder="요기요기" required autofocus>
+        <button type="submit" class="btn btn-lg btn-primary btn-block"  id="attend" onclick="ss2()">출석</button>
+      </form>
+    </div>
+<div class="center">
+    <div class="container">
+        <button type="button" class="btn btn-default" onClick="inputNumber(1)">1</button>
+        <button type="button" class="btn btn-default" onClick="inputNumber(2)">2</button>
+        <button type="button" class="btn btn-default" onClick="inputNumber(3)">3</button>
+    </div>
+    <div class="container">
+        <button type="button" class="btn btn-default" onClick="inputNumber(4)">4</button>
+        <button type="button" class="btn btn-default" onClick="inputNumber(5)">5</button>
+        <button type="button" class="btn btn-default" onClick="inputNumber(6)">6</button>
+    </div>
+    <div class="container">
+        <button type="button" class="btn btn-default" onClick="inputNumber(7)">7</button>
+        <button type="button" class="btn btn-default" onClick="inputNumber(8)">8</button>
+        <button type="button" class="btn btn-default" onClick="inputNumber(9)">9</button>
+    </div>
+    <div class="container">
+        <button type="button" class="btn btn-default" onClick="inputNumber(0)">0</button>
+    </div>
+</div>
+     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+	<script src="src/login.js"> </script>
+
+</html>
+
